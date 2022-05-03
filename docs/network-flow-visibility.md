@@ -1,4 +1,4 @@
-# Network Flow Visibility in Antrea
+# Theia: Network Flow Visibility for Antrea
 
 ## Table of Contents
 
@@ -22,12 +22,13 @@
 
 ## Overview
 
-[Antrea](design/architecture.md) is a Kubernetes network plugin that provides network
-connectivity and security features for Pod workloads. Considering the scale and
-dynamism of Kubernetes workloads in a cluster, Network Flow Visibility helps in
-the management and configuration of Kubernetes resources such as Network Policy,
-Services, Pods etc., and thereby provides opportunities to enhance the performance
-and security aspects of Pod workloads.
+[Antrea](https://github.com/antrea-io/antrea/blob/main/docs/design/architecture.md)
+is a Kubernetes network plugin that provides network connectivity and security
+features for Pod workloads. Considering the scale and dynamism of Kubernetes
+workloads in a cluster, Network Flow Visibility helps in the management and
+configuration of Kubernetes resources such as Network Policy, Services, Pods
+etc., and thereby provides opportunities to enhance the performance and security
+aspects of Pod workloads.
 
 For visualizing the network flows, Antrea monitors the flows in Linux conntrack
 module. These flows are converted to flow records, and then flow records are post-processed

@@ -1,5 +1,5 @@
 {
-  "name": "antreaflowvisibility-grafana-sankey-plugin",
+  "name": "theia-grafana-sankey-plugin",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,7 +10,7 @@
     "sign": "grafana-toolkit plugin:sign",
     "start": "yarn watch"
   },
-  "author": "antreaflowvisibility",
+  "author": "antrea-io",
   "license": "Apache-2.0",
   "devDependencies": {
     "@grafana/data": "latest",
